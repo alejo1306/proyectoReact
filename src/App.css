@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.car {
+  margin-left: 800px;
+}
+
+.rutas {
+  text-align: center;
 }
