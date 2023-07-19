@@ -12,7 +12,7 @@ const ItemListContainer = () => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(id ? productos.filter(item => item.categoria === id) : productos)
-            }, 3000);
+            }, 1000);
         });
 
         promesa.then((data) => {

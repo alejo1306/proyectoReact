@@ -11,8 +11,10 @@ function NavBar() {
                     <Navbar.Brand>PlayG</Navbar.Brand>
                     <Nav className="me-auto">
                         <Link to={'/'} className='rutas'>Inicio</Link>
-                        <Link to={'/Juegos'} className='rutas'>Juegos</Link>
-                        <Link to={'/Consolas'} className='rutas'>Consolas</Link>
+
+                        <Link to={'/category/juegos'} className='rutas'>Juegos</Link>
+                        <Link to={'/category/consolas'} className='rutas'>Consolas</Link>
+
                         <Link to={'/Cartwidget'} className='car'><Cartwidget /></Link>
                     </Nav>
                 </Container>

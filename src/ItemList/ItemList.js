@@ -15,5 +15,6 @@ const itemList = ({ item }) => {
         </div>
     )
 }
+console.log()
 
 export default itemList

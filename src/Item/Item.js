@@ -8,8 +8,9 @@ const Item = ({ item }) => {
             <div className='container'>
                 <div className='card border border-0'>
                     <img src={item.imagen} alt={item.nombre} />
-
-                    <div className='card-body text-center bg-black'>
+                    <h2>{item.nombre}</h2>
+                    <h3>{item.marca}</h3>
+                    <div className='card-body text-center'>
                         <p>{item.precio}</p>
                     </div>
                 </div>
