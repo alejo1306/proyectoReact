@@ -2,16 +2,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Cartwidget from './CartWidget/Cartwidget';
+import { Link } from 'react-router-dom';
 function NavBar() {
     return (
         <div>
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                    <Navbar.Brand href="#home">PlayG</Navbar.Brand>
+                    <Navbar.Brand>PlayG</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link className='rutas' href="#home">Juegos</Nav.Link>
-                        <Nav.Link className='rutas' href="#features">Consolas</Nav.Link>
-                        <Nav.Link className='car' href="#pricing"><Cartwidget /></Nav.Link>
+                        <Link to={'/'} className='rutas'>Inicio</Link>
+                        <Link to={'/Juegos'} className='rutas'>Juegos</Link>
+                        <Link to={'/Consolas'} className='rutas'>Consolas</Link>
+                        <Link to={'/Cartwidget'} className='car'><Cartwidget /></Link>
                     </Nav>
                 </Container>
             </Navbar>

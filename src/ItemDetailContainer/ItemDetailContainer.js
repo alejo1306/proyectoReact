@@ -1,17 +1,17 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import productos from '../productos/productos.json'
-import ItemList from '../ItemList/ItemList'
+import ItemDetail from '../ItemDetail/ItemDetail'
 
-const ItemListContainer = () => {
+const ItemDetailContainer = () => {
     const [item, setItem] = useState([])
     const { id } = useParams();
 
     useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
-                resolve(id ? productos.filter(item => item.categoria === id) : productos)
+                resolve(productos.find(item => item.id === parseInt(id)))
             }, 3000);
         });
 
@@ -22,10 +22,11 @@ const ItemListContainer = () => {
     }, [id])
 
     return (
-        <div><ItemList item={item} /></div>
-
-
+        <div className='container'>
+            <ItemDetail />
+        </div>
     )
 }
 
-export default ItemListContainer
+
+export default ItemDetailContainer

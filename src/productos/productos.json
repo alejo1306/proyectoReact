@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "nombre": "Playstation 5",
+        "precio": 10.99,
+        "marca": "Playstation",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 2,
+        "nombre": "Playstation 4",
+        "precio": 5.99,
+        "marca": "Playstation",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 3,
+        "nombre": "Playstation 4 pro",
+        "precio": 15.99,
+        "marca": "Playstation",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 4,
+        "nombre": "Playstation 5 digital",
+        "precio": 8.99,
+        "marca": "Playstation",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 5,
+        "nombre": "Nintendo switch",
+        "precio": 12.99,
+        "marca": "Nintendo",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 6,
+        "nombre": "Nintendo switch oled",
+        "precio": 7.99,
+        "marca": "Nintendo",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 7,
+        "nombre": "Nintendo switch lite",
+        "precio": 9.99,
+        "marca": "Nintendo",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 8,
+        "nombre": "Nintendo switch edicion animal crossing",
+        "precio": 11.99,
+        "marca": "Nintendo",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 9,
+        "nombre": "Xbox one",
+        "precio": 14.99,
+        "marca": "Xbox",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 10,
+        "nombre": "Xbox series x",
+        "precio": 6.99,
+        "marca": "Xbox",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 11,
+        "nombre": "Xbox series s",
+        "precio": 13.99,
+        "marca": "Xbox",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 12,
+        "nombre": "Xbox series x edicion halo",
+        "precio": 4.99,
+        "marca": "Xbox",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "consola"
+    },
+    {
+        "id": 13,
+        "nombre": "Juego",
+        "precio": 16.99,
+        "marca": "Marca 13",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 14,
+        "nombre": "Juego",
+        "precio": 3.99,
+        "marca": "Marca 14",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 15,
+        "nombre": "Juego",
+        "precio": 17.99,
+        "marca": "Marca 15",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 16,
+        "nombre": "Juego",
+        "precio": 2.99,
+        "marca": "Marca 16",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 17,
+        "nombre": "Juego",
+        "precio": 18.99,
+        "marca": "Marca 17",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 18,
+        "nombre": "Juego",
+        "precio": 1.99,
+        "marca": "Marca 18",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 19,
+        "nombre": "Juego",
+        "precio": 19.99,
+        "marca": "Marca 19",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 20,
+        "nombre": "Juego",
+        "precio": 0.99,
+        "marca": "Marca 20",
+        "imagen": "https://blog.euncet.com/wp-content/uploads/2022/08/las-5-fuerzas-de-porter-ejemplo-practico.jpg",
+        "categoria": "juegos"
+    }
+]
