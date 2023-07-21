@@ -12,7 +12,7 @@ const ItemDetailContainer = () => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
                 resolve(productos.find(item => item.id === parseInt(id)))
-            }, 3000);
+            }, 1000);
         });
 
         promesa.then((data) => {
@@ -23,10 +23,9 @@ const ItemDetailContainer = () => {
 
     return (
         <div className='container'>
-            <ItemDetail />
+            <ItemDetail item={item} />
         </div>
     )
 }
-
 
 export default ItemDetailContainer

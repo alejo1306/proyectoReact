@@ -10,9 +10,6 @@ const Item = ({ item }) => {
                     <img src={item.imagen} alt={item.nombre} />
                     <h2>{item.nombre}</h2>
                     <h3>{item.marca}</h3>
-                    <div className='card-body text-center'>
-                        <p>{item.precio}</p>
-                    </div>
                 </div>
             </div>
         </Link>

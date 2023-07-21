@@ -13,7 +13,7 @@ function NavBar() {
                         <Link to={'/'} className='rutas'>Inicio</Link>
 
                         <Link to={'/category/juegos'} className='rutas'>Juegos</Link>
-                        <Link to={'/category/consolas'} className='rutas'>Consolas</Link>
+                        <Link to={'/category/consola'} className='rutas'>Consolas</Link>
 
                         <Link to={'/Cartwidget'} className='car'><Cartwidget /></Link>
                     </Nav>
