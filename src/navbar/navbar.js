@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Cartwidget from './CartWidget/Cartwidget';
+
 import { Link } from 'react-router-dom';
 function NavBar() {
     return (
@@ -15,7 +15,6 @@ function NavBar() {
                         <Link to={'/category/juegos'} className='rutas'>Juegos</Link>
                         <Link to={'/category/consola'} className='rutas'>Consolas</Link>
 
-                        <Link to={'/Cartwidget'} className='car'><Cartwidget /></Link>
                     </Nav>
                 </Container>
             </Navbar>
