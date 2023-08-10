@@ -47,7 +47,189 @@
   margin: 2%;
 }
 
+/* App.css */
 body {
-  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* NavBar.css */
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+}
+
+.rutas {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.icono {
+  position: relative;
+}
+
+.icono svg {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.icono span {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+}
+
+/* ItemDetail.css */
+.item-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.item-detail img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-detail .details {
+  margin-left: 20px;
+}
+
+.item-detail h2 {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.item-detail p {
+  margin: 5px 0;
+}
+
+.item-detail button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* CartPage.css */
+.cart-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  max-width: 100px;
+  height: auto;
+}
+
+.item-details {
+  margin-left: 20px;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Item.css */
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+
+.card img {
+  max-width: 100%;
+  height: 200px;
+
+  object-fit: cover;
+
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.493);
+
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-top: auto;
+  margin-bottom: 5%;
+  cursor: pointer;
+}

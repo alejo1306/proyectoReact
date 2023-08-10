@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import productos from '../productos/productos.json'
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore'
 import ItemList from '../ItemList/ItemList'
 
 const ItemListContainer = () => {
@@ -9,20 +9,22 @@ const ItemListContainer = () => {
     const { categoria } = useParams();
 
     useEffect(() => {
-        const promesa = new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(categoria ? productos.filter(item => item.categoria === categoria) : productos)
-            }, 1000);
-        });
-
-        promesa.then((data) => {
-            setItem(data)
-        })
+        const querydb = getFirestore()
+        const querycollection = collection(querydb, 'productos')
+        if (categoria) {
+            const queryFilter = query(querycollection, where('categoria', '==', categoria))
+            getDocs(queryFilter)
+                .then(res => setItem(res.docs.map(p => ({ id: p.id, ...p.data() }))))
+        } else {
+            getDocs(querycollection)
+                .then(res => setItem(res.docs.map(p => ({ id: p.id, ...p.data() }))))
+        }
 
     }, [categoria])
 
     return (
-        <div><ItemList item={item} /></div>
+        <ItemList item={item} />
+
 
 
     )

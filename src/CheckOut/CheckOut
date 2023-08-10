@@ -1,0 +1,40 @@
+import React, { useState } from 'react';
+
+function CheckOut({ onCheckout }) {
+    const [address, setAddress] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [receipt, setReceipt] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        onCheckout();
+    };
+
+    return (
+        <div>
+            <h2>Checkout</h2>
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Dirección:
+                    <input type="text" value={address} onChange={(e) => setAddress(e.target.value)} required />
+                </label>
+                <label>
+                    Email:
+                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                </label>
+                <label>
+                    Número de Teléfono:
+                    <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+                </label>
+                <label>
+                    Recibo:
+                    <input type="file" onChange={(e) => setReceipt(e.target.files[0])} required />
+                </label>
+                <button type="submit">Realizar Checkout</button>
+            </form>
+        </div>
+    );
+}
+
+export default CheckOut;
